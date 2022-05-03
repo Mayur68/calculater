@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(to right, #6b81e2, #cd5be4);
+}
+
+#cover {
+    margin-left: 40%;
+    margin-right: 25%;
+    margin-top: 100px;
+    width: 329px;
+    height: 500px;
+    background-color: rgb(156, 242, 236);
+    box-shadow: 100;
+
+}
+
+button {
+    background-color: rgba(255, 255, 255, .75);
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+}
+
+#out1 {
+    border: none;
+    background-color: rgb(156, 242, 236);
+    height: 40px;
+    width: 325px;
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#out2 {
+    border: none;
+    background-color: rgb(156, 242, 236);
+    height: 40px;
+    width: 325px;
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#operator,
+#number {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
