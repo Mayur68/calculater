@@ -29,9 +29,7 @@ button {
     height: 40px;
     width: 325px;
     text-align: right;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
+    
     
 }
 
@@ -41,9 +39,7 @@ button {
     height: 40px;
     width: 325px;
     text-align: right;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
+  
     
 }
 
