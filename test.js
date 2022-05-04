@@ -5,7 +5,7 @@ function num(x) {
     a.value += x;
 }
 
-function clear() {
+function cle() {
     a.value = "";
     b.value = "";
 }
